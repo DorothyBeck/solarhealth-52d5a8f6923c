@@ -6,6 +6,7 @@ import {ZamaEthereumConfig} from "@fhevm/solidity/config/ZamaConfig.sol";
 
 /// @title SolarHealth - Privacy-First Health Data Management Platform
 /// @notice A fully encrypted health data management system using FHEVM
+/// @dev All health data is encrypted on-chain using FHEVM
 contract SolarHealth is ZamaEthereumConfig {
     // 数据结构
     struct HealthRecord {
