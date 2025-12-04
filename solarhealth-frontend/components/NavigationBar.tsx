@@ -8,6 +8,7 @@ export function NavigationBar() {
   const pathname = usePathname();
   const { isConnected, accounts, chainId, connect, disconnect } = useWallet();
 
+  // Navigation items for authenticated users
   const navItems = [
     { href: "/dashboard", label: "Dashboard" },
     { href: "/data-entry", label: "Data Entry" },

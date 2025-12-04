@@ -4,7 +4,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "SolarHealth - Privacy-First Health Data Management",
-  description: "Your health data, encrypted and analyzed with zero-knowledge",
+  description: "Your health data, encrypted and analyzed with zero-knowledge using FHEVM",
 };
 
 export default function RootLayout({
