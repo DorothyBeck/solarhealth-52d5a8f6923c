@@ -30,6 +30,7 @@ describe("SolarHealth", function () {
 
   beforeEach(async function () {
     // Check whether the tests are running against an FHEVM mock environment
+    // Tests require mock FHEVM for encrypted operations
     if (!fhevm.isMock) {
       console.warn(`This hardhat test suite cannot run on Sepolia Testnet`);
       this.skip();
